@@ -1,0 +1,21 @@
+{
+  "id": "browser-art",
+  "name": {
+    "ru": "Обложки для любых плееров",
+    "en": "Cover Art Fallback"
+  },
+  "version": "1.0.0",
+  "author": "aboba",
+  "description": {
+    "ru": "Обложка в медиа-виджетах AngelOS, когда плеер её не отдаёт: превью YouTube, встроенная обложка или cover.jpg локального файла, поиск альбома в iTunes, og:image страницы — а если ничего нет, пиксельная кассета в цветах текущей темы. Настоящую обложку плеера не трогает.",
+    "en": "Cover art in AngelOS media widgets when a player sends none: YouTube thumbnail, a local file's embedded art or cover.jpg, an iTunes album search, the page's og:image — or a pixel cassette in the current palette. Never replaces a player's own cover."
+  },
+  "icon": "image",
+  "enabledByDefault": true,
+  "themes": [
+    "pixel",
+    "mac"
+  ],
+  "main": "Main.qml",
+  "license": "MIT"
+}
